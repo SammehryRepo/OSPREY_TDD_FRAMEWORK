@@ -45,8 +45,8 @@ public class ProfileUpdatePage extends SeleniumUtilities {
 
     }
     public void updateProfileInfo(String profileInput, String profilePhoneInput) throws InterruptedException {
-        sendText(profileName, profileInput);
-        sendText(profilePhone, profilePhoneInput);
+        clearAndInputValue(profileName, profileInput);
+        clearAndInputValue(profilePhone, profilePhoneInput);
 
         Thread.sleep(20);
     }

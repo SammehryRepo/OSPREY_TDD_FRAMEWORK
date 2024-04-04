@@ -5,7 +5,7 @@
             <package name="tek.tdd.test.adhoc"></package>
         </packages>
     </test>
-    <!--    <test name="Running With Package">-->
+    <!--    <t est name="Running With Package">-->
     <!--        <packages>-->
     <!--            <package name="tek.tdd.test.regression"/>-->
     <!--        </packages>-->
